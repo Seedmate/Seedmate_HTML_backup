@@ -1,0 +1,418 @@
+{
+  "about": "Seedmate test vectors, version 1. Public test seeds with no funds. Computed with the Seedmate firmware's own code (firmware repository, test/backup). Every mnemonic is BIP39 English. See the specification for the formats.",
+  "bip39": [
+    {
+      "entropy": "00000000000000000000000000000000",
+      "mnemonic": "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about"
+    },
+    {
+      "entropy": "7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f",
+      "mnemonic": "legal winner thank year wave sausage worth useful legal winner thank yellow"
+    },
+    {
+      "entropy": "5985013a6dc1dd5fe6a090f37948efb8",
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose"
+    },
+    {
+      "entropy": "ecb74dd1da0513d8cd17506e7910d955d357c0930e8d5c6b9e983e61379a3b3a",
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand"
+    }
+  ],
+  "coins": [
+    {
+      "tosses": "01011001100001010000000100111010011011011100000111011101010111111110011010100000100100001111001101111001010010001110111110111000",
+      "note": "0 is heads, 1 is tails",
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose"
+    }
+  ],
+  "dice": [
+    {
+      "rolls": "3455224546165423544552646562666351562416262351661455361465546136356322412432653",
+      "words": 12,
+      "mnemonic": "tag announce train bamboo budget math ring funny blur ostrich edit moon"
+    },
+    {
+      "rolls": "25444452565615326545551632152632141524313425454536424315643236433252123442246142424145244433246662426443561515422656152112442645546344263656415116136544444314543622",
+      "words": 24,
+      "mnemonic": "payment catalog blanket inform include option finish only unaware under skate fall giggle leopard dove cute balcony flat cover milk crush tomato stereo rubber"
+    }
+  ],
+  "dice_hash": [
+    {
+      "rolls": "51161355524643112555122435234641611241346364125514",
+      "mode": "1-6",
+      "words": 12,
+      "mnemonic": "fame dumb door witness adjust cup notice ready predict child ahead bulb"
+    },
+    {
+      "rolls": "35411423215112523612223121226214546334561243126251",
+      "mode": "0-5",
+      "words": 12,
+      "mnemonic": "senior require word category dawn slam chase cup solar reflect profit desert"
+    },
+    {
+      "rolls": "122325315324565253361513663126351655446122323245564154244522644331566236222551461633325265546352116",
+      "mode": "1-6",
+      "words": 12,
+      "mnemonic": "source before rent horror observe hat base cream zoo cannon bacon false"
+    },
+    {
+      "rolls": "526434636653616224123256351445651354141562343235245152634541364221336214122114141436664665442243452",
+      "mode": "1-6",
+      "words": 24,
+      "mnemonic": "coil photo obscure mandate mechanic below tip balcony success doll grab couch ankle parade toward milk diamond eagle east ability sport iron entire ridge"
+    },
+    {
+      "rolls": "224114622224444233235132444121521346266655225626654126533523541444225523232263622211261362636431145",
+      "mode": "0-5",
+      "words": 12,
+      "mnemonic": "trap initial cotton sibling degree core bomb deputy rough water turtle liquid"
+    },
+    {
+      "rolls": "541411621162155123511162223534315566613614625253265362544365556516534634315325634144213252666565441",
+      "mode": "0-5",
+      "words": 24,
+      "mnemonic": "paper diagram miracle undo inmate risk garbage misery female gossip thing stock deputy jeans escape boring oppose poverty salt wrist veteran bless push capital"
+    }
+  ],
+  "poker_cards": [
+    {
+      "cards": "4H 2S 5D KD 6C 8C JC TD 9S JD 7S AD KD TH KS 4C 6C 7D 6C 7C QS JD KH AC 6S AC 2H TC",
+      "words": 12,
+      "mnemonic": "unable decrease exchange fossil latin include shock smile cube rabbit liar spirit"
+    },
+    {
+      "cards": "TH 8H JC TH 3H 4S 8H 3H 6D TH 5S 2H AD 9D KD JH 5H KS JS 7H 9S 7S QH QH 5H 7D QD 7S AS 8S JC JH 5C 4H TS 7H 4C AC AD AS QC 6H TC QD 2S 8C 6S TH 5H 3D AS KD 6D 2H 3S 2C JD 2S",
+      "words": 24,
+      "mnemonic": "course moon peanut caught sad remind fatigue special turkey large today witness cancel source coral push wood series wear video wet rescue assume board"
+    }
+  ],
+  "obfuscation": [
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "not",
+      "result": "please subject ramp caught timber exotic grace unknown arrive cup series month"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "byte_swap",
+      "result": "luxury six lesson lizard sting uphold logic taxi motion duck hotel tenant"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "shift_left",
+      "bits": 5,
+      "result": "cost abuse square idea rival wrist expect duck hundred employ lava bird"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "shift_right",
+      "bits": 11,
+      "result": "warfare flower chimney excess swear build quiz once bamboo vibrant ski derive"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "shift_left",
+      "bits": 200,
+      "result": "party maple tattoo mushroom wine coast beef chef horse auction fitness soccer"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "add",
+      "value": 1024,
+      "result": "sunset pool soldier fortune oven copper box must inflict engage room idle"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "sub",
+      "value": 3000,
+      "result": "tip rain stuff goose plug decline castle only ladder fashion shaft image"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "add",
+      "value": 7,
+      "result": "foil cigar exhaust symbol burger radio opinion base violin sleep devote idle"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "word_xor",
+      "word": "olympic",
+      "word_index": 1234,
+      "result": "sense rather state dove maple cup absorb marriage hard exotic payment twice"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "method": "word_xor",
+      "word": "about",
+      "word_index": 3,
+      "result": "fly chronic exclude swim buffalo question online bar vessel sketch describe ill"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "not",
+      "result": "battle easily merit episode put bean slight bicycle muscle danger situate february skin cabbage record comic phone perfect fly lobster uncle cream basic rose"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "byte_swap",
+      "result": "retire grief fashion arm pulse another game punch exotic long fever razor large size acquire peace hero tooth chest second trust breeze trophy immense"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "shift_left",
+      "bits": 5,
+      "result": "notice evidence mom life chicken mimic merry double song awkward skirt inquiry question ankle mansion cube miracle ozone sea obscure hundred photo output sausage"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "shift_right",
+      "bits": 11,
+      "result": "guard uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack zone"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "shift_left",
+      "bits": 200,
+      "result": "oblige vessel evil crucial recipe iron tag riot sure chuckle wage olive insect damp tone brass fiction one usual champion trip purchase purpose target"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "add",
+      "value": 1024,
+      "result": "hole denial virtual cross spell hockey reform head unveil embrace rent close rely gate slow faculty symbol table champion wolf nature escape hollow energy"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "sub",
+      "value": 3000,
+      "result": "interest drop word dial surface install run indoor wash face satisfy cruise salmon harsh steel follow tornado tourist congress alarm organ figure invest fish"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "add",
+      "value": 7,
+      "result": "unique robust inspire reject faith unhappy cry turtle hungry siren damp prosper curve thrive escape spoon front fruit plunge laundry begin social universe fringe"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "word_xor",
+      "word": "olympic",
+      "word_index": 1234,
+      "result": "ivory cage until comic slice involve puppy icon vintage fan project cradle quality key stool episode shiver shop detail track matrix firm issue tell"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "method": "word_xor",
+      "word": "about",
+      "word_index": 3,
+      "result": "under ring inject refuse eyebrow ugly crouch tuna host similar curtain profit crush then era spike foster frame please lake basic sniff uncle eternal"
+    }
+  ],
+  "xor": [
+    {
+      "inputs": [
+        "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+        "solve spy dinosaur coach muscle illegal attack rose keep firm gorilla afraid"
+      ],
+      "result": "number win ill warm middle ten neutral puppy melt other gap inmate"
+    },
+    {
+      "inputs": [
+        "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+        "access glance club electric ten differ churn gun behave final either lazy moral slot afraid turkey always unhappy van will jealous remember disagree only",
+        "zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo vote"
+      ],
+      "result": "bamboo cheese police arrive ice comic toddler improve magnet giggle modify clay early squirrel resemble shaft piano exact potato job only mansion column dismiss"
+    },
+    {
+      "inputs": [
+        "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+        "solve spy dinosaur coach muscle illegal attack rose keep firm gorilla afraid",
+        "legal winner thank year wave sausage worth useful legal winner thank yellow",
+        "letter advice cage absurd amount doctor acoustic avoid letter advice cage above"
+      ],
+      "result": "hammer again monitor angle inhale canal help faint inspire glass pass meat"
+    }
+  ],
+  "shamir": [
+    {
+      "secret": "lonely idea worth wrist bone fall manual combine dismiss tattoo frost borrow",
+      "k": 2,
+      "n": 3,
+      "coefficients_hex": [
+        "554ccb85ba4aaa7064409795760057e6"
+      ],
+      "note": "coefficient arrays c1..c(k-1); the device makes them random",
+      "shares": [
+        {
+          "id": 1,
+          "mnemonic": "street bike broken memory recycle head biology disease pretty hour embrace street"
+        },
+        {
+          "id": 2,
+          "mnemonic": "circle reduce rifle candy frozen pelican pistol clip attitude salad item remove"
+        },
+        {
+          "id": 3,
+          "mnemonic": "ladder spoil flee fiction warfare omit crucial defy orange atom glimpse junior"
+        }
+      ]
+    },
+    {
+      "secret": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "k": 3,
+      "n": 5,
+      "coefficients_hex": [
+        "b312d93bf870988682c6650b74e605bc32e67acf60190ab8e3133929dea9c918",
+        "b5eec0b80c36617dc815301b0c60f2873c2aaaf4fdc79cd631cb4ce2fe0b7e0a"
+      ],
+      "note": "coefficient arrays c1..c(k-1); the device makes them random",
+      "shares": [
+        {
+          "id": 1,
+          "mnemonic": "tumble follow behind frame dirt balcony business level lawn arrow merit tank super marriage pelican heavy skate clerk avoid nuclear pause ordinary cost anchor"
+        },
+        {
+          "id": 2,
+          "mnemonic": "indoor curve fox act surprise motor leg mercy believe april assault decade income fever proof vault attack promote used song gold zero duty fade"
+        },
+        {
+          "id": 3,
+          "mnemonic": "invest story device turtle remove horse favorite tiger age solution raccoon excess oxygen dice drama energy object survey flush caution stone puzzle occur already"
+        },
+        {
+          "id": 4,
+          "mnemonic": "receive unique banana quality couch recycle buffalo dinner truly obey tackle jewel guard dirt hunt mad jazz mosquito reduce under immune sword exit dumb"
+        },
+        {
+          "id": 5,
+          "mnemonic": "rely ask index element garage exact dad female weekend fatigue general acid merit find library dinosaur three track acoustic also senior minimum neck blade"
+        }
+      ]
+    },
+    {
+      "secret": "cash found frequent island portion remove then squirrel barely leg pond fine",
+      "k": 6,
+      "n": 9,
+      "coefficients_hex": [
+        "d2aca49150e25b74928fa110bb88385a",
+        "95474ccd2467e52a989f2ce114c1e5e4",
+        "67b3835a08bdfe31ae7e47017ccb22bf",
+        "49ee4a36fce3a788d42ef272f4a4f0ea",
+        "3bfaa16300d8e02e0aae2d337c4e4d64"
+      ],
+      "note": "coefficient arrays c1..c(k-1); the device makes them random",
+      "shares": [
+        {
+          "id": 1,
+          "mnemonic": "illegal deal embark island oblige eyebrow argue baby phrase piano resist empty"
+        },
+        {
+          "id": 2,
+          "mnemonic": "dad lunar merge category brick clog matter secret silly will try issue"
+        },
+        {
+          "id": 3,
+          "mnemonic": "shoulder home luxury dutch frost flip nut shoot afraid innocent sense must"
+        },
+        {
+          "id": 4,
+          "mnemonic": "hair lounge force moon basic must high unfold slam illness orient loud"
+        },
+        {
+          "id": 5,
+          "mnemonic": "hair sudden diesel soon undo ranch obtain plate harbor toe code gold"
+        },
+        {
+          "id": 6,
+          "mnemonic": "grunt stem lock twice topic fit model noise submit wish jaguar raise"
+        },
+        {
+          "id": 7,
+          "mnemonic": "shell airport you slim hobby tiny match blur alter depart wire print"
+        },
+        {
+          "id": 8,
+          "mnemonic": "ability hire stumble come pole slender expand depend cute stick best foil"
+        },
+        {
+          "id": 9,
+          "mnemonic": "alpha boy cereal secret shoot armor method pumpkin employ decade supply tiny"
+        }
+      ]
+    },
+    {
+      "secret": "twenty patient menu type town divide awful knock cactus hammer flavor praise coral local journey feel build before require kangaroo entry tortoise stick crash",
+      "k": 5,
+      "n": 9,
+      "coefficients_hex": [
+        "5697dfc7599c0ca981f72723f17df52b0d4378f4799cf6f21a1df3d91398319e",
+        "c823b674dd11c5cf37f7e264f9a7d2258737974885fa7741d884f6c2a3aad6c1",
+        "4a7f1d7171570e46fdc62df411a13f7011fb47eda22889dfa6bc89fb438c0b33",
+        "dcaa14bd166ce70cd36608d5396a3c0bab8e86e2ce252ace84c4ac83f33dd1f6"
+      ],
+      "note": "coefficient arrays c1..c(k-1); the device makes them random",
+      "shares": [
+        {
+          "id": 1,
+          "mnemonic": "today present network coach lounge claim impulse guitar economy gym balance dumb coral beef renew fluid disorder add monster deer knife piano cat horn"
+        },
+        {
+          "id": 2,
+          "mnemonic": "drink replace royal license symbol vacuum target web vessel economy dignity bind garbage betray jewel cook panther patient churn ladder old elevator behave photo"
+        },
+        {
+          "id": 3,
+          "mnemonic": "unaware jeans clown diesel club pattern fuel ribbon opera impose nurse memory diary shoot surface broom pledge balcony keep april glide lumber anger remember"
+        },
+        {
+          "id": 4,
+          "mnemonic": "clinic country announce response ski bitter pair immune notice caught among truth dune cereal empty ticket donate fragile author nature video latin dawn science"
+        },
+        {
+          "id": 5,
+          "mnemonic": "swing morning vital hobby place also safe elevator stand future educate damp ritual sand primary unlock defy denial armor grid electric recipe ready push"
+        },
+        {
+          "id": 6,
+          "mnemonic": "smoke gossip lion deputy glow fatigue divert behind curious tilt dinosaur south winter canyon panel pepper brief topic shrug chapter order slice survey rival"
+        },
+        {
+          "id": 7,
+          "mnemonic": "ostrich away van opinion own alarm wisdom lecture ketchup quick panel job gate zone buzz nation judge cave pride topple thunder mango release note"
+        },
+        {
+          "id": 8,
+          "mnemonic": "brass maximum quick fiscal equip raw shock stool zoo upgrade energy episode famous story gather mixture cup mail prefer dog kick enhance float scorpion"
+        },
+        {
+          "id": 9,
+          "mnemonic": "half rule solve grape advance display wish crawl cousin slice pumpkin shadow badge year elevator stereo angle rocket scout dilemma oyster run behind index"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "mnemonic": "legal winner thank year wave sausage worth useful legal winner thank yellow",
+      "decks": 5,
+      "cards": "3D 4H 6H JD 5H 9S 8S KS 6H 3D 4H 9S 2H KS 8S 6H 2H 9S JD 5H KS 6H 3D 4H 9S 2H KS 4H 9S KS"
+    },
+    {
+      "mnemonic": "flower chimney excess swear build quiz once bamboo vibrant ski desk impose",
+      "decks": 1,
+      "cards": "QC 7C 3C 4D 8H 8C TC TD 3H 4C JD JC 6H 8S AD 9C 5C 2S 3D TH AS 6D 3S TS 2D KS 4H QD"
+    },
+    {
+      "mnemonic": "uncover risk inner reduce eye unaware crowd tube hover silk curve produce cube theory equip spider fragile friend plastic lamp beach snack undo expand",
+      "decks": 2,
+      "cards": "4H 6D 2H 8D 7S AH 8C AD AC JC 5C 5H QD KD 4S 6C KS QH 7H KH 3H 9S 9H TS QS 4C KC 9D JS 2D 7D JC 6H AC TC 7C 4C 8D AD QC 5D 9D KD 4H 7C 2C 5H KC 5C 2H 6S AH 8C KH 2D QS"
+    },
+    {
+      "mnemonic": "solve spy dinosaur coach muscle illegal attack rose keep firm gorilla afraid",
+      "decks": 1,
+      "cards": "KD 2H 4H 7C 5D 5H KC TD QC 5C KH 8C 3C AC 2D AS 3D 7H TH 6S 3H 9D AH JS 6D JC TS 9H"
+    }
+  ]
+}
